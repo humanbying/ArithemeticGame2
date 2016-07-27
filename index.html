@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <h1>Simple Arithmetics</h1>
+    <div class=o ne>
+      <button class='theButtons'>1</button>
+      <button class='theButtons'>2</button>
+      <button class='theButtons'>3</button>
+    </div>
+    <div class=t wo>
+      <button class='theButtons'>4</button>
+      <button class='theButtons'>5</button>
+      <button class='theButtons'>6</button>
+    </div>
+    <div class=t hree>
+      <button class='theButtons'>7</button>
+      <button class='theButtons'>8</button>
+      <button class='theButtons'>9</button>
+    </div>
+    <div class=z ero>
+      <button id='clear' type="button" onclick="clearing()">CLEAR</button>
+      <button class='theButtons'>0</button>
+      <button id='submit' type="button" onclick="submit()">SUBMIT</button>
+    </div>
+    <table>
+      <tr>
+        <td>
+          <p id='num1'></p> +
+          <p id="num2"></p> = </td>
+        <td>
+          <form>
+            <input id="inputVal" type="number" value="Submit">
+          </form>
+        </td>
+      </tr>
+    </table>
+    </div>
+    <!--  Javascript -->
+    <script src="main.js"></script>
+  </body>
+
+</html>

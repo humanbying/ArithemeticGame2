@@ -1,0 +1,95 @@
+/*remove button outlines*/
+* {
+outline: none;
+}
+
+h1 {
+  font-size: 4.2em;
+  font-weight: bold;
+}
+
+table {
+  font-size: 50px;
+  font-weight: bolder;
+  margin: auto;
+}
+
+div {
+  font-size: 20px;
+}
+
+p {
+  display: inline;
+}
+
+body {
+  padding-top: 20px;
+  text-align: center;
+  background-size: cover;
+  background-image: url("http://67.media.tumblr.com/17b8c0d7e704c247765643388876ecab/tumblr_my8soqWcRR1sxmglqo6_1280.jpg");
+  font-family: sans-serif;
+  color: white;
+  font-style: white;
+}
+
+.theButtons {
+  border-radius: 100%;
+  color: #fff;
+  background-color: #111;
+  margin: 10px;
+  border: none;
+  font-weight: bold;
+  width: 65px;
+  height: 65px;
+  font-size: 2em;
+}
+
+.theButtons:hover{
+  background-color: #000;
+  width:75px;
+  height:75px;
+  opacity:1;
+}
+
+#clear {
+  border-radius: 100%;
+  color: #fff;
+  background-color: #99001C;
+  text-align: center;
+  font-size: 14px;
+  border: none;
+  font-weight: bold;
+  width: 70px;
+  margin: 10px;
+  height: 70px;
+}
+
+#submit {
+  border-radius: 100%;
+  color: #fff;
+  background-color: #007F00;
+  text-align: center;
+  font-size: 14px;
+  margin: 10px;
+  border: none;
+  font-weight: bold;
+  width: 70px;
+  height: 70px;
+}
+
+td {
+  font-size: 80px;
+}
+
+input {
+  height: 50px;
+  width: 225px;
+  margin-right: 270px;
+  margin-left: 15px;
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.45;
+  border-radius: 2em;
+}
